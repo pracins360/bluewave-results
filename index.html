@@ -59,7 +59,7 @@
   </div>
 </div>
 <script>
-const API_URL = "https://script.google.com/macros/s/AKfycbyWVP3ZJZ_Hxhx5U2dWrzfvWRlcfemc7oOj6-mCniVkW5Sci2cusBJFy6ydnkNO4-pg/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbwYeJSjiIWAeKQEHAVjyQRYVrD5Ds2Q1RXZ0bfrEoBU04Z6T0zamm3MWGeuJEIUR7vb/exec";
 let DATA={countries:[],matches:[],bracket:[],facts:[]};
 function norm(s){return (s||'').toString().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim()}
 function flagFor(country){const m={'curacao':'🇨🇼','curaçao':'🇨🇼','brazil':'🇧🇷','germany':'🇩🇪','argentina':'🇦🇷','france':'🇫🇷','fransia':'🇫🇷','spain':'🇪🇸','usa':'🇺🇸','united states':'🇺🇸','netherlands':'🇳🇱','italy':'🇮🇹','england':'🏴','portugal':'🇵🇹','colombia':'🇨🇴','mexico':'🇲🇽','japan':'🇯🇵','south korea':'🇰🇷','haiti':'🇭🇹','turkey':'🇹🇷','turkiye':'🇹🇷','cote d\'ivoire':'🇨🇮','côte d\'ivoire':'🇨🇮','ivory coast':'🇨🇮','ecuador':'🇪🇨'};return m[norm(country)]||'⚽'}
